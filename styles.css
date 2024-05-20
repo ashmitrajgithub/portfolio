@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #f4f4f4;
+}
+
+header {
+    position: relative;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Larger font size for header */
+}
+
+header p {
+    margin: 0.5em 0;
+    font-size: 1.2rem; /* Larger font size for header text */
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header #nav-toggle {
+    color: #fff;
+    cursor: pointer;
+}
+
+section {
+    margin: 2em 0;
+    padding: 2em 0;
+}
+
+.navbar {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s;
+}
+
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow on hover */
+}
+
+footer {
+    padding: 1rem 0;
+}
